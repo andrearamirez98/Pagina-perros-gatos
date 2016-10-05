@@ -1,0 +1,111 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+header,footer{
+background-color:#6495ED;
+color:white;
+}
+.principal{
+	display: inline-block;	
+	background-image:url(imagenes/animales.jpg); 
+	background-size: 100px;
+	background position: 0px 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 80px;
+	height: 283px;
+}
+header{
+	display: table;
+	padding: 5%;
+	width: 90%;
+}
+.titulo{
+	display: table-cell;
+}
+.menu{
+	vertical-align: middle;
+	text-align: right;
+	display: table-cell;
+}
+.menu li{
+	padding-left: 5px;
+	display: inline;
+	list-style-type: none;
+}
+.menu li:hover{
+	background: black;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.titulo_article h1{
+	font-size: 40px;
+	color: black;
+	text-transform: uppercase;
+	margin: 0px;
+	padding-bottom: 60px;
+}
+
+
+.titulo_gatoype{
+	margin: 0px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	
+}
+.imagen_gatoype h5{
+	color: black;
+	display: inline;
+	}
+
+.titulo_article{
+	text-align: center;
+}
+.menu_article{
+	text-align: center;
+}
+.menu_article a{
+	text-decoration: none;
+	background-color:#000000;
+	padding: 8px 40px;
+	border-radius: 5px;
+	color: white;
+	
+}
+
+li:hover{
+	background-color: red;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.perro{
+	background-color:#A9A9A9;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	list-style-type: none;
+}
+
+.gatos{
+background-color:	#A9A9A9; 
+}
+
+footer{
+	color: white;
+	padding: 4px;
+	position:relative;
+	bottom:0;
+	display: block;
+	width: 99%;
+	border: 0;
+}
